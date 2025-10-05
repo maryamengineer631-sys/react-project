@@ -1,0 +1,160 @@
+.products-page {
+  font-family: "Poppins", sans-serif;
+  background: #f9fafb;
+  color: #333;
+}
+
+/* ✅ Hero Banner */
+.hero-banner {
+  background: url("https://img.freepik.com/free-photo/shopping-cart-with-colorful-bags_23-2148879048.jpg")
+    no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.shop-btn {
+  background: #ff6b6b;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.shop-btn:hover {
+  background: #e63946;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 20px 40px;
+  margin-left: 300px;
+}
+
+.category-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.category-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.category-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+.offer-banner {
+  text-align: center;
+  background: linear-gradient(135deg, #ff6b6b, #f94d6a);
+  color: #fff;
+  padding: 50px 20px;
+  margin: 50px 0;
+  border-radius: 12px;
+}
+
+.offer-banner h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.offer-banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.offer-btn {
+  background: #fff;
+  color: #ff6b6b;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.offer-btn:hover {
+  background: #333;
+  color: #fff;
+}
+
+.footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: #1e1e2f;
+}
+.box{
+    border: 2px solid;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 500px;
+    height: 760px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: #2d2d44;
+    border-radius: 40px;
+    color: white;
+}
+input{
+    margin-left: 40px;
+    border-radius: 50px;
+}
+h2 {
+    text-align: center; 
+    font-size: larger;
+}
+hr{
+    border: 2px solid;
+    width: 300px;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dac{
+    border: 2px solid;
+    width: 500px;
+}
+.mybtn{
+    margin-left: 200px;
+    border: 2px solid darkblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.8s;
+}
+.mybtn:hover{
+background-color: darkblue;
+color: white;
+border: 2px solid darkblue ;
+box-shadow: 0 0 10px darkblue;
+}
+
+
